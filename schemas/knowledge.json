@@ -1,0 +1,960 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-04-02",
+  "entries": [
+    {
+      "id": "docs-case-examples-customer-api-spike-example",
+      "title": "Customer Api Spike Example",
+      "path": "docs/case-examples/customer-api-spike-example.md",
+      "contentType": "case-example",
+      "summary": "Reference page: customer api spike example.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-case-examples-migration-cutover-example",
+      "title": "Migration Cutover Example",
+      "path": "docs/case-examples/migration-cutover-example.md",
+      "contentType": "case-example",
+      "summary": "Reference page: migration cutover example.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-case-examples-multitenant-control-plane-example",
+      "title": "Multitenant Control Plane Example",
+      "path": "docs/case-examples/multitenant-control-plane-example.md",
+      "contentType": "case-example",
+      "summary": "Reference page: multitenant control plane example.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-case-examples-notification-platform-example",
+      "title": "Notification Platform Example",
+      "path": "docs/case-examples/notification-platform-example.md",
+      "contentType": "case-example",
+      "summary": "Reference page: notification platform example.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-comparisons-admission-control-vs-load-shedding",
+      "title": "Admission Control Vs Load Shedding",
+      "path": "docs/comparisons/admission-control-vs-load-shedding.md",
+      "contentType": "comparison",
+      "summary": "Reference page: admission control vs load shedding.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-comparisons-admission-control-vs-rate-limiting",
+      "title": "Admission Control Vs Rate Limiting",
+      "path": "docs/comparisons/admission-control-vs-rate-limiting.md",
+      "contentType": "comparison",
+      "summary": "Reference page: admission control vs rate limiting.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-comparisons-backpressure-vs-load-shedding",
+      "title": "Backpressure Vs Load Shedding",
+      "path": "docs/comparisons/backpressure-vs-load-shedding.md",
+      "contentType": "comparison",
+      "summary": "Reference page: backpressure vs load shedding.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-comparisons-bounded-queues-vs-unbounded-work",
+      "title": "Bounded Queues Vs Unbounded Work",
+      "path": "docs/comparisons/bounded-queues-vs-unbounded-work.md",
+      "contentType": "comparison",
+      "summary": "Reference page: bounded queues vs unbounded work.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-comparisons-circuit-breakers-vs-retries",
+      "title": "Circuit Breakers Vs Retries",
+      "path": "docs/comparisons/circuit-breakers-vs-retries.md",
+      "contentType": "comparison",
+      "summary": "Reference page: circuit breakers vs retries.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-comparisons-graceful-degradation-vs-failure",
+      "title": "Graceful Degradation Vs Failure",
+      "path": "docs/comparisons/graceful-degradation-vs-failure.md",
+      "contentType": "comparison",
+      "summary": "Reference page: graceful degradation vs failure.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-admission-control",
+      "title": "Admission Control",
+      "path": "docs/concepts/admission-control.md",
+      "contentType": "concept",
+      "summary": "Reference page: admission control.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-backpressure",
+      "title": "Backpressure",
+      "path": "docs/concepts/backpressure.md",
+      "contentType": "concept",
+      "summary": "Reference page: backpressure.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-bounded-queues",
+      "title": "Bounded Queues",
+      "path": "docs/concepts/bounded-queues.md",
+      "contentType": "concept",
+      "summary": "Reference page: bounded queues.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-bulkheads",
+      "title": "Bulkheads",
+      "path": "docs/concepts/bulkheads.md",
+      "contentType": "concept",
+      "summary": "Reference page: bulkheads.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-circuit-breakers",
+      "title": "Circuit Breakers",
+      "path": "docs/concepts/circuit-breakers.md",
+      "contentType": "concept",
+      "summary": "Reference page: circuit breakers.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-concurrency-limits",
+      "title": "Concurrency Limits",
+      "path": "docs/concepts/concurrency-limits.md",
+      "contentType": "concept",
+      "summary": "Reference page: concurrency limits.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-dependency-isolation",
+      "title": "Dependency Isolation",
+      "path": "docs/concepts/dependency-isolation.md",
+      "contentType": "concept",
+      "summary": "Reference page: dependency isolation.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-graceful-degradation",
+      "title": "Graceful Degradation",
+      "path": "docs/concepts/graceful-degradation.md",
+      "contentType": "concept",
+      "summary": "Reference page: graceful degradation.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-load-shedding",
+      "title": "Load Shedding",
+      "path": "docs/concepts/load-shedding.md",
+      "contentType": "concept",
+      "summary": "Reference page: load shedding.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-overload-observability",
+      "title": "Overload Observability",
+      "path": "docs/concepts/overload-observability.md",
+      "contentType": "concept",
+      "summary": "Reference page: overload observability.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-priority-and-fairness",
+      "title": "Priority And Fairness",
+      "path": "docs/concepts/priority-and-fairness.md",
+      "contentType": "concept",
+      "summary": "Reference page: priority and fairness.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-rate-limiting",
+      "title": "Rate Limiting",
+      "path": "docs/concepts/rate-limiting.md",
+      "contentType": "concept",
+      "summary": "Reference page: rate limiting.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-concepts-retries-and-retry-storms",
+      "title": "Retries And Retry Storms",
+      "path": "docs/concepts/retries-and-retry-storms.md",
+      "contentType": "concept",
+      "summary": "Reference page: retries and retry storms.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-design-guides-designing-for-degraded-modes",
+      "title": "Designing For Degraded Modes",
+      "path": "docs/design-guides/designing-for-degraded-modes.md",
+      "contentType": "design-guide",
+      "summary": "Reference page: designing for degraded modes.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-design-guides-designing-safe-fallbacks",
+      "title": "Designing Safe Fallbacks",
+      "path": "docs/design-guides/designing-safe-fallbacks.md",
+      "contentType": "design-guide",
+      "summary": "Reference page: designing safe fallbacks.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-design-guides-how-to-tune-rate-limits",
+      "title": "How To Tune Rate Limits",
+      "path": "docs/design-guides/how-to-tune-rate-limits.md",
+      "contentType": "design-guide",
+      "summary": "Reference page: how to tune rate limits.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-design-guides-instrumentation-and-alerting",
+      "title": "Instrumentation And Alerting",
+      "path": "docs/design-guides/instrumentation-and-alerting.md",
+      "contentType": "design-guide",
+      "summary": "Reference page: instrumentation and alerting.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-design-guides-selecting-shed-priority",
+      "title": "Selecting Shed Priority",
+      "path": "docs/design-guides/selecting-shed-priority.md",
+      "contentType": "design-guide",
+      "summary": "Reference page: selecting shed priority.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-design-guides-where-to-enforce-admission-control",
+      "title": "Where To Enforce Admission Control",
+      "path": "docs/design-guides/where-to-enforce-admission-control.md",
+      "contentType": "design-guide",
+      "summary": "Reference page: where to enforce admission control.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-diagrams-dependency-failure-containment",
+      "title": "Dependency Failure Containment",
+      "path": "docs/diagrams/dependency-failure-containment.md",
+      "contentType": "diagram",
+      "summary": "Reference page: dependency failure containment.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-diagrams-multitenant-overload-control",
+      "title": "Multitenant Overload Control",
+      "path": "docs/diagrams/multitenant-overload-control.md",
+      "contentType": "diagram",
+      "summary": "Reference page: multitenant overload control.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-diagrams-overload-control-pipeline",
+      "title": "Overload Control Pipeline",
+      "path": "docs/diagrams/overload-control-pipeline.md",
+      "contentType": "diagram",
+      "summary": "Reference page: overload control pipeline.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-diagrams-request-lifecycle-under-load",
+      "title": "Request Lifecycle Under Load",
+      "path": "docs/diagrams/request-lifecycle-under-load.md",
+      "contentType": "diagram",
+      "summary": "Reference page: request lifecycle under load.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-overview-glossary",
+      "title": "Glossary",
+      "path": "docs/overview/glossary.md",
+      "contentType": "overvie",
+      "summary": "Reference page: glossary.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-overview-overload-control-model",
+      "title": "Overload Control Model",
+      "path": "docs/overview/overload-control-model.md",
+      "contentType": "overvie",
+      "summary": "Reference page: overload control model.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-overview-overload-control-pipeline",
+      "title": "Overload Control Pipeline",
+      "path": "docs/overview/overload-control-pipeline.md",
+      "contentType": "overvie",
+      "summary": "Reference page: overload control pipeline.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-overview-why-systems-fail-under-load",
+      "title": "Why Systems Fail Under Load",
+      "path": "docs/overview/why-systems-fail-under-load.md",
+      "contentType": "overvie",
+      "summary": "Reference page: why systems fail under load.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-scenarios-cascading-failure-scenario",
+      "title": "Cascading Failure Scenario",
+      "path": "docs/scenarios/cascading-failure-scenario.md",
+      "contentType": "scenario",
+      "summary": "Reference page: cascading failure scenario.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-scenarios-downstream-timeout-amplification",
+      "title": "Downstream Timeout Amplification",
+      "path": "docs/scenarios/downstream-timeout-amplification.md",
+      "contentType": "scenario",
+      "summary": "Reference page: downstream timeout amplification.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-scenarios-noisy-neighbor-multitenant-overload",
+      "title": "Noisy Neighbor Multitenant Overload",
+      "path": "docs/scenarios/noisy-neighbor-multitenant-overload.md",
+      "contentType": "scenario",
+      "summary": "Reference page: noisy neighbor multitenant overload.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-scenarios-queue-explosion-scenario",
+      "title": "Queue Explosion Scenario",
+      "path": "docs/scenarios/queue-explosion-scenario.md",
+      "contentType": "scenario",
+      "summary": "Reference page: queue explosion scenario.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-scenarios-retry-storm-scenario",
+      "title": "Retry Storm Scenario",
+      "path": "docs/scenarios/retry-storm-scenario.md",
+      "contentType": "scenario",
+      "summary": "Reference page: retry storm scenario.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-scenarios-rollout-induced-overload",
+      "title": "Rollout Induced Overload",
+      "path": "docs/scenarios/rollout-induced-overload.md",
+      "contentType": "scenario",
+      "summary": "Reference page: rollout induced overload.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-system-patterns-overload-control-during-migrations",
+      "title": "Overload Control During Migrations",
+      "path": "docs/system-patterns/overload-control-during-migrations.md",
+      "contentType": "system-pattern",
+      "summary": "Reference page: overload control during migrations.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-system-patterns-overload-control-for-apis",
+      "title": "Overload Control For Apis",
+      "path": "docs/system-patterns/overload-control-for-apis.md",
+      "contentType": "system-pattern",
+      "summary": "Reference page: overload control for apis.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-system-patterns-overload-control-for-control-planes",
+      "title": "Overload Control For Control Planes",
+      "path": "docs/system-patterns/overload-control-for-control-planes.md",
+      "contentType": "system-pattern",
+      "summary": "Reference page: overload control for control planes.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-system-patterns-overload-control-for-multitenant-platforms",
+      "title": "Overload Control For Multitenant Platforms",
+      "path": "docs/system-patterns/overload-control-for-multitenant-platforms.md",
+      "contentType": "system-pattern",
+      "summary": "Reference page: overload control for multitenant platforms.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-system-patterns-overload-control-for-queue-based-systems",
+      "title": "Overload Control For Queue Based Systems",
+      "path": "docs/system-patterns/overload-control-for-queue-based-systems.md",
+      "contentType": "system-pattern",
+      "summary": "Reference page: overload control for queue based systems.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "docs-system-patterns-overload-control-for-workflow-engines",
+      "title": "Overload Control For Workflow Engines",
+      "path": "docs/system-patterns/overload-control-for-workflow-engines.md",
+      "contentType": "system-pattern",
+      "summary": "Reference page: overload control for workflow engines.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "docs",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "examples-sample-alerts",
+      "title": "Sample Alerts",
+      "path": "examples/sample-alerts.md",
+      "contentType": "example",
+      "summary": "Reference page: sample alerts.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "examples",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "examples-sample-api-contracts",
+      "title": "Sample Api Contracts",
+      "path": "examples/sample-api-contracts.md",
+      "contentType": "example",
+      "summary": "Reference page: sample api contracts.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "examples",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "examples-sample-metrics",
+      "title": "Sample Metrics",
+      "path": "examples/sample-metrics.md",
+      "contentType": "example",
+      "summary": "Reference page: sample metrics.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "examples",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    },
+    {
+      "id": "examples-sample-rejection-responses",
+      "title": "Sample Rejection Responses",
+      "path": "examples/sample-rejection-responses.md",
+      "contentType": "example",
+      "summary": "Reference page: sample rejection responses.",
+      "tags": [
+        "overload-control",
+        "distributed-systems",
+        "reliability"
+      ],
+      "canonicalTopic": "overload control",
+      "related": [],
+      "parent": "examples",
+      "children": [],
+      "level": "intermediate",
+      "status": "draft-v1"
+    }
+  ]
+}

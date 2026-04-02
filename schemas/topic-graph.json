@@ -1,0 +1,60 @@
+{
+  "nodes": [
+    "overload control model",
+    "admission control",
+    "rate limiting",
+    "backpressure",
+    "bounded queues",
+    "circuit breakers",
+    "dependency isolation",
+    "load shedding",
+    "graceful degradation",
+    "observability"
+  ],
+  "edges": [
+    {
+      "from": "overload control model",
+      "to": "admission control"
+    },
+    {
+      "from": "overload control model",
+      "to": "rate limiting"
+    },
+    {
+      "from": "overload control model",
+      "to": "backpressure"
+    },
+    {
+      "from": "overload control model",
+      "to": "circuit breakers"
+    },
+    {
+      "from": "overload control model",
+      "to": "load shedding"
+    },
+    {
+      "from": "overload control model",
+      "to": "graceful degradation"
+    },
+    {
+      "from": "admission control",
+      "to": "rate limiting"
+    },
+    {
+      "from": "admission control",
+      "to": "load shedding"
+    },
+    {
+      "from": "backpressure",
+      "to": "bounded queues"
+    },
+    {
+      "from": "circuit breakers",
+      "to": "dependency isolation"
+    },
+    {
+      "from": "graceful degradation",
+      "to": "critical path preservation"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# Dependency Failure Containment
+
+**Summary:** Diagram and interpretation for dependency failure containment.
+
+```mermaid
+flowchart TB
+    subgraph Service
+      P1[Priority Path A]
+      P2[Priority Path B]
+      BH1[Bulkhead Pool A]
+      BH2[Bulkhead Pool B]
+      CB1[Circuit Breaker A]
+      CB2[Circuit Breaker B]
+    end
+    P1 --> BH1 --> CB1 --> D1[Dependency A]
+    P2 --> BH2 --> CB2 --> D2[Dependency B]
+    D1 -.failure.-> CB1
+    CB1 -.isolates.-> P1
+    P2 --> Stable[Path B preserved]
+```
+
+## Interpretation
+This diagram highlights overload decision points and containment boundaries.
+
+## Related concepts
+- [Overload Control Model](../overview/overload-control-model.md)
