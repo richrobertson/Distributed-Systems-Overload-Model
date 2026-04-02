@@ -1,0 +1,269 @@
+{
+  "documents": [
+    {
+      "path": "docs/case-examples/customer-api-spike-example.md",
+      "title": "Customer Api Spike Example",
+      "contentType": "case-example"
+    },
+    {
+      "path": "docs/case-examples/migration-cutover-example.md",
+      "title": "Migration Cutover Example",
+      "contentType": "case-example"
+    },
+    {
+      "path": "docs/case-examples/multitenant-control-plane-example.md",
+      "title": "Multitenant Control Plane Example",
+      "contentType": "case-example"
+    },
+    {
+      "path": "docs/case-examples/notification-platform-example.md",
+      "title": "Notification Platform Example",
+      "contentType": "case-example"
+    },
+    {
+      "path": "docs/comparisons/admission-control-vs-load-shedding.md",
+      "title": "Admission Control Vs Load Shedding",
+      "contentType": "comparison"
+    },
+    {
+      "path": "docs/comparisons/admission-control-vs-rate-limiting.md",
+      "title": "Admission Control Vs Rate Limiting",
+      "contentType": "comparison"
+    },
+    {
+      "path": "docs/comparisons/backpressure-vs-load-shedding.md",
+      "title": "Backpressure Vs Load Shedding",
+      "contentType": "comparison"
+    },
+    {
+      "path": "docs/comparisons/bounded-queues-vs-unbounded-work.md",
+      "title": "Bounded Queues Vs Unbounded Work",
+      "contentType": "comparison"
+    },
+    {
+      "path": "docs/comparisons/circuit-breakers-vs-retries.md",
+      "title": "Circuit Breakers Vs Retries",
+      "contentType": "comparison"
+    },
+    {
+      "path": "docs/comparisons/graceful-degradation-vs-failure.md",
+      "title": "Graceful Degradation Vs Failure",
+      "contentType": "comparison"
+    },
+    {
+      "path": "docs/concepts/admission-control.md",
+      "title": "Admission Control",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/backpressure.md",
+      "title": "Backpressure",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/bounded-queues.md",
+      "title": "Bounded Queues",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/bulkheads.md",
+      "title": "Bulkheads",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/circuit-breakers.md",
+      "title": "Circuit Breakers",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/concurrency-limits.md",
+      "title": "Concurrency Limits",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/dependency-isolation.md",
+      "title": "Dependency Isolation",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/graceful-degradation.md",
+      "title": "Graceful Degradation",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/load-shedding.md",
+      "title": "Load Shedding",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/overload-observability.md",
+      "title": "Overload Observability",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/priority-and-fairness.md",
+      "title": "Priority And Fairness",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/rate-limiting.md",
+      "title": "Rate Limiting",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/concepts/retries-and-retry-storms.md",
+      "title": "Retries And Retry Storms",
+      "contentType": "concept"
+    },
+    {
+      "path": "docs/design-guides/designing-for-degraded-modes.md",
+      "title": "Designing For Degraded Modes",
+      "contentType": "design-guide"
+    },
+    {
+      "path": "docs/design-guides/designing-safe-fallbacks.md",
+      "title": "Designing Safe Fallbacks",
+      "contentType": "design-guide"
+    },
+    {
+      "path": "docs/design-guides/how-to-tune-rate-limits.md",
+      "title": "How To Tune Rate Limits",
+      "contentType": "design-guide"
+    },
+    {
+      "path": "docs/design-guides/instrumentation-and-alerting.md",
+      "title": "Instrumentation And Alerting",
+      "contentType": "design-guide"
+    },
+    {
+      "path": "docs/design-guides/selecting-shed-priority.md",
+      "title": "Selecting Shed Priority",
+      "contentType": "design-guide"
+    },
+    {
+      "path": "docs/design-guides/where-to-enforce-admission-control.md",
+      "title": "Where To Enforce Admission Control",
+      "contentType": "design-guide"
+    },
+    {
+      "path": "docs/diagrams/dependency-failure-containment.md",
+      "title": "Dependency Failure Containment",
+      "contentType": "diagram"
+    },
+    {
+      "path": "docs/diagrams/multitenant-overload-control.md",
+      "title": "Multitenant Overload Control",
+      "contentType": "diagram"
+    },
+    {
+      "path": "docs/diagrams/overload-control-pipeline.md",
+      "title": "Overload Control Pipeline",
+      "contentType": "diagram"
+    },
+    {
+      "path": "docs/diagrams/request-lifecycle-under-load.md",
+      "title": "Request Lifecycle Under Load",
+      "contentType": "diagram"
+    },
+    {
+      "path": "docs/overview/glossary.md",
+      "title": "Glossary",
+      "contentType": "overvie"
+    },
+    {
+      "path": "docs/overview/overload-control-model.md",
+      "title": "Overload Control Model",
+      "contentType": "overvie"
+    },
+    {
+      "path": "docs/overview/overload-control-pipeline.md",
+      "title": "Overload Control Pipeline",
+      "contentType": "overvie"
+    },
+    {
+      "path": "docs/overview/why-systems-fail-under-load.md",
+      "title": "Why Systems Fail Under Load",
+      "contentType": "overvie"
+    },
+    {
+      "path": "docs/scenarios/cascading-failure-scenario.md",
+      "title": "Cascading Failure Scenario",
+      "contentType": "scenario"
+    },
+    {
+      "path": "docs/scenarios/downstream-timeout-amplification.md",
+      "title": "Downstream Timeout Amplification",
+      "contentType": "scenario"
+    },
+    {
+      "path": "docs/scenarios/noisy-neighbor-multitenant-overload.md",
+      "title": "Noisy Neighbor Multitenant Overload",
+      "contentType": "scenario"
+    },
+    {
+      "path": "docs/scenarios/queue-explosion-scenario.md",
+      "title": "Queue Explosion Scenario",
+      "contentType": "scenario"
+    },
+    {
+      "path": "docs/scenarios/retry-storm-scenario.md",
+      "title": "Retry Storm Scenario",
+      "contentType": "scenario"
+    },
+    {
+      "path": "docs/scenarios/rollout-induced-overload.md",
+      "title": "Rollout Induced Overload",
+      "contentType": "scenario"
+    },
+    {
+      "path": "docs/system-patterns/overload-control-during-migrations.md",
+      "title": "Overload Control During Migrations",
+      "contentType": "system-pattern"
+    },
+    {
+      "path": "docs/system-patterns/overload-control-for-apis.md",
+      "title": "Overload Control For Apis",
+      "contentType": "system-pattern"
+    },
+    {
+      "path": "docs/system-patterns/overload-control-for-control-planes.md",
+      "title": "Overload Control For Control Planes",
+      "contentType": "system-pattern"
+    },
+    {
+      "path": "docs/system-patterns/overload-control-for-multitenant-platforms.md",
+      "title": "Overload Control For Multitenant Platforms",
+      "contentType": "system-pattern"
+    },
+    {
+      "path": "docs/system-patterns/overload-control-for-queue-based-systems.md",
+      "title": "Overload Control For Queue Based Systems",
+      "contentType": "system-pattern"
+    },
+    {
+      "path": "docs/system-patterns/overload-control-for-workflow-engines.md",
+      "title": "Overload Control For Workflow Engines",
+      "contentType": "system-pattern"
+    },
+    {
+      "path": "examples/sample-alerts.md",
+      "title": "Sample Alerts",
+      "contentType": "example"
+    },
+    {
+      "path": "examples/sample-api-contracts.md",
+      "title": "Sample Api Contracts",
+      "contentType": "example"
+    },
+    {
+      "path": "examples/sample-metrics.md",
+      "title": "Sample Metrics",
+      "contentType": "example"
+    },
+    {
+      "path": "examples/sample-rejection-responses.md",
+      "title": "Sample Rejection Responses",
+      "contentType": "example"
+    }
+  ]
+}
